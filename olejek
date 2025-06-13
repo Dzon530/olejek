@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator epetów</title>
+    <link rel="stylesheet" href="styl.css">
+    <script src="skrypt.js"></script>
+</head>
+<body>
+    <header>
+        <h1>kalkulator olejku do e-dmuchawy</h1>
+    </header>
+
+    <main>
+        <section id="prawy">
+            <img src="aaaaaaaaazzzz-1.gif" alt=""><br>
+            <img src="elf_pali_rozge.gif" id="elf" alt="">
+        </section>
+
+        <section id="lewy">
+            <h3>wykalkuluj moc swojego olejku do epapierosa</h3>
+            <label for="nikotyna"><input type="number" id="nikotyna">ile ml nikotyny</label></br>
+            <label for="moc"><input type="number" id="moc">jaka moc nikotyny</label></br>
+            <label for="typ"><input type="radio" id="typ1" name="typ">50/50vg/pg</label></br>
+            <label for="typ"><input type="radio" id="typ2" name="typ"> 70/30vg/pg</label></br>
+            <button onclick="obliczMoc()">Oblicz moc olejku</button>
+            <p id="wynik"></p>
+            
+        </section>
+    </main>
+</body>
+</html>
